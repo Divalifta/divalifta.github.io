@@ -1,0 +1,29 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.App {
+  font-family: "Inter", sans-serif;
+  background-color: #ffbee2;
+  color: #eaecf2;
+  padding-top: 70px;
+}
+
+body {
+  background-color: #ffbde4;
+  color: #debacb;
+}
+
+.fade-in-section {
+  opacity: 0;
+  transform: translateY(10vh);
+  visibility: hidden;
+  transition: opacity 0.6s ease-out, transform 1s ease-out;
+}
+
+.fade-in-section.is-visible {
+  opacity: 1;
+  transform: none;
+  visibility: visible;
+}
+
