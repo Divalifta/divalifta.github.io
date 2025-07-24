@@ -34,7 +34,7 @@ const projects = [
     description:
       "Built a web application to predict real estate prices using historical data, integrating a machine learning model. Deployed the application using Flask for scalability and ease of use. Achieved 85% accuracy in price predictions, providing valuable insights for real estate investors. Developed in Python with an interactive JavaScript frontend.",
     tools: "Python, Flask, JavaScript",
-    githubLink: "https://github.com/yourusername/real-estate-price-prediction",
+    githubLink: "https://github.com/divalifta/Real-Estate-Price-Prediction",
     image: RealEstateImg,
   },
   {
