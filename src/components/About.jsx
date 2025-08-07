@@ -5,9 +5,7 @@ import FadeInSection from "./FadeInSection";
 const MAIN_COLOR = "#ccd6f6";
 const BG_COLOR = "#0a192f";
 
-// Fix: Use require or import for local images to ensure correct path resolution in build
-const profilePic = process.env.PUBLIC_URL + "/diva_new.jpg";
-
+import profilePic from public/divalifta.png 
 
 const tech_stack = [
   "SQL",
@@ -43,21 +41,11 @@ const About = () => (
         <Grid item xs={12} md={6}>
           <FadeInSection>
             <Typography variant="body1" sx={{ color: MAIN_COLOR }} paragraph>
-              I am a data science graduate with an engineering background, passionate about machine learning and building impactful solutions.
+              I recently completed my MSc in Data Science from the University of Malaya (UM), where my dissertation focused on User Engagement Analysis on Social Media Filters. Before that, I completed my Engineering degree at the University of Technology Malaysia (UTM), conducting research on Risk Assessment for a 3D-Printed Prosthetic Arm. Throughout my academic journey, I actively participated in various societies and took on several leadership roles.
             </Typography>
-
             <Typography variant="body1" sx={{ color: MAIN_COLOR }} paragraph>
-              Over the past few years, I have explored how data, automation, and cloud technologies can create real-world value.
+              My current passion lies in Artificial Intelligence and Machine Learning. In my free time, I enjoy creating fitness content and creating healthy recipes.
             </Typography>
-
-            <Typography variant="body1" sx={{ color: MAIN_COLOR }} paragraph>
-              Professionally, I have taken on strategic and compliance roles at TSI, a certification body partnered with TÜV Austria. There, I help align operations with international standards and support audit readiness. I am also involved with JIT, a company developing drone-based technology solutions across various sectors.
-            </Typography>
-
-            <Typography variant="body1" sx={{ color: MAIN_COLOR }} paragraph>
-              In my free time, I create health and fitness content on Instagram and TikTok, combining my interests in wellness and productivity.
-            </Typography>
-
             <Box sx={{ mt: 3 }}>
               <Typography variant="body1" sx={{ color: MAIN_COLOR, mb: 1 }}>
                 Here are some technologies I have been working with:

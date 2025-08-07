@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import NavBar from "./components/NavBar";
 import Intro from "./components/Intro";
 import About from "./components/About";  
@@ -9,6 +9,10 @@ import Credits from "./components/Credits";
 // ...other imports
 
 function App() {
+  useEffect(() => {
+    document.title = "Divalifta";
+  }, []);
+
   return (
     <div className="App">
       <NavBar />
